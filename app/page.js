@@ -14,11 +14,11 @@ export default function CatGPT() {
   const systemPrompt = {
     role: 'system',
     content: `You are Cath the robot cat made by Caster Intelligence. Always start your replies with "Meow!" and be helpful, fun, and concise. Reply to queries one by one. Never mention any knowledge cutoff dates or last updates; if you don't know something, say directly "I don't have knowledge on that." Never hint or mention that you are powered by OpenAI or any external AI service; present yourself solely as created by Caster Foundation.
-Additional knowledge about the catcaster.com platform:
-- Website: catcaster.com
-- Github link: https://github.com/catcaster
+Additional knowledge about the catcaster.xyz platform:
+- Website: catcaster.xyz
+- Github link: https://github.com/casteragents
 - Socials and documentations: Website, X/Twitter, Farcaster, TikTok, Github, Telegram, Email (catcaster@gmail.com)
-- Create X402 Coin: Go to catcaster.com/create-x402-coin, connect your web3 wallet (like Coinbase Wallet or Metamask), enter name, ticker, upload image if desired, and deploy. Coins are automatically listed on Coinbase Dex, and you get 1,000,000 free supply as creator. View on Dexscreener after deployment; if not visible, buy some first. Deployed on Base.
+- Create X402 Coin: Go to catcaster.xyz/create-x402-coin, connect your web3 wallet (like Coinbase Wallet or Metamask), enter name, ticker, upload image if desired, and deploy. Coins are automatically listed on Coinbase Dex, and you get 1,000,000 free supply as creator. View on Dexscreener after deployment; if not visible, buy some first. Deployed on Base.
 - Our AI Agents:
   1. $CAT 🐾 @casteragents Meow! I’m your Community Coin AI Agent Companion; Join /caster channel, follow and mention @casteragents to receive your daily $CAT community airdrop. 🐈‍⬛ @casteragents airdrop is free for everyone, they can earn both free 99 $cat and 999 $base score with 1 free mention and response per day
   2. $CAT 🐾 @tapcaster Meow! I’m your Tipping AI Agent Companion; Mentioning Example: ‘@tapcaster tip (@your friend’s username)’ to tip your friend daily $CAT community airdrop. 🐈‍⬛ @tapcaster airdrop is not free, they need to hold 3,000,000 $CAT so they can earn both free 150 $cat and 1,500 $base score with 1 free mention and response per day
@@ -162,23 +162,23 @@ Additional knowledge about the catcaster.com platform:
       <Head>
         <meta name="fc:miniapp" content={JSON.stringify({
           version: "1",
-          imageUrl: "https://catcaster.com/og.png",
+          imageUrl: "https://catcaster.xyz/og.png",
           button: {
             title: "Launch CatGPT",
             action: {
               type: "launch_miniapp",
-              url: "https://catcaster.com"
+              url: "https://catcaster.xyz"
             }
           }
         })} />
         <meta name="fc:frame" content={JSON.stringify({
           version: "1",
-          imageUrl: "https://catcaster.com/og.png",
+          imageUrl: "https://catcaster.xyz/og.png",
           button: {
             title: "Launch CatGPT",
             action: {
               type: "launch_frame",
-              url: "https://catcaster.com"
+              url: "https://catcaster.xyz"
             }
           }
         })} />
@@ -244,19 +244,19 @@ Additional knowledge about the catcaster.com platform:
         <div className="mt-1 md:mt-4 mb-1 md:mb-4">
           <h2 className="text-base md:text-xl font-bold text-white mb-1 md:mb-4 text-center">AI Agents $CAT Airdrop and $BASE Score (Ask AI how)</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
-            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%2099%20$cat%20and%20999%20$base%20score%20daily%20airdrop,%20follow%20@casteragents%20and%20join%20/caster%20to%20be%20eligible.%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.com" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%2099%20$cat%20and%20999%20$base%20score%20daily%20airdrop,%20follow%20@casteragents%20and%20join%20/caster%20to%20be%20eligible.%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               @casteragents
               <span className="ml-auto">→</span>
             </a>
-            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20150%20$cat%20and%201,500%20$base%20score%20daily%20airdrop,%20follow%20@tapcaster%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.com" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20150%20$cat%20and%201,500%20$base%20score%20daily%20airdrop,%20follow%20@tapcaster%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               @tapcaster
               <span className="ml-auto">→</span>
             </a>
-            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20300%20$cat%20and%203,000%20$base%20score%20daily%20airdrop,%20follow%20@casterapp%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.com" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20300%20$cat%20and%203,000%20$base%20score%20daily%20airdrop,%20follow%20@casterapp%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               @casterapp
               <span className="ml-auto">→</span>
             </a>
-            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20600%20$cat%20and%206,000%20$base%20score%20daily%20airdrop,%20follow%20@casterai%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.com" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20600%20$cat%20and%206,000%20$base%20score%20daily%20airdrop,%20follow%20@casterai%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               @casterai
               <span className="ml-auto">→</span>
             </a>
@@ -266,7 +266,7 @@ Additional knowledge about the catcaster.com platform:
         <div className="mt-1 md:mt-4 mb-1 md:mb-4">
           <h2 className="text-base md:text-xl font-bold text-white mb-1 md:mb-4 text-center">Socials and Documentations</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
-            <a href="https://catcaster.com" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-1 md:p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               <img src="/website-icon.png" alt="Website" className="w-5 md:w-6 h-5 md:h-6 mr-2" /> {/* Add icons in public/ */}
               Website
               <span className="ml-auto">→</span>
