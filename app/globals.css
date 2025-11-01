@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #1A202C;
+  color: #E2E8F0;
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+h1, h2 {
+  font-weight: 700;
+}
+button {
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+button:hover {
+  opacity: 0.9;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.bg-gradient-purple {
+  background-image: linear-gradient(to right, #553C9A, #B794F4);
+}
+.bg-gradient-gray {
+  background: linear-gradient(to right, #4A5568, #2D3748);
+}
+.progress-bar {
+  background-color: #4A5568;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-fill {
+  background-color: #B794F4;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+.disconnect-button {
+  background-color: #EF4444;
+}
+.text-primary {
+  color: #B794F4;
+}
+.text-accent {
+  color: #B794F4;
+}
+.bg-card {
+  background-color: #2D3748;
+}
+.bg-background {
+  background-color: #1A202C;
+}
+.border-border {
+  border-color: #4A5568;
+}
+.text-text {
+  color: #E2E8F0;
+}
+.bg-secondary {
+  background-color: #4A5568;
+}
+.bg-accent {
+  background-color: #B794F4;
+}
