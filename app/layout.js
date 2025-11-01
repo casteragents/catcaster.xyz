@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import ClientLayout from './ClientLayout'
 const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
-  title: 'Catcaster.xyz',
+  title: 'Catcaster',
   icons: {
     icon: '/logo.jpg',
   },
