@@ -33,7 +33,7 @@ export default function ClientLayout({ children }) {
             <div className="flex items-center gap-2 flex-1 justify-center md:justify-between max-w-7xl mx-auto">
               <div className="flex items-center gap-2">
                 <img src="/logo.jpg" alt="Logo" className="logo w-10 h-10" />
-                <h1 className="text-2xl font-bold text-primary">Catcaster.com</h1>
+                <h1 className="text-2xl font-bold text-primary">Catcaster</h1>
               </div>
               {pathname === '/create-x402-coin' && <ConnectWallet />}
             </div>
@@ -50,4 +50,5 @@ export default function ClientLayout({ children }) {
       </div>
     </WalletProvider>
   );
+
 }
