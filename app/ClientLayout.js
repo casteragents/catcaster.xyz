@@ -50,3 +50,4 @@ export default function ClientLayout({ children }) {
       </div>
     </WalletProvider>
   );
+}
