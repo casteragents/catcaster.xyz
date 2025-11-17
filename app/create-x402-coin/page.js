@@ -227,19 +227,19 @@ export default function CreateX402Coin() {
         <div className="mt-8 mb-6">
           <h2 className="text-xl font-bold text-white mb-4 text-center">AI Agents $CAT Airdrop and $BASE Score (Ask AI How)</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%2099%20$cat%20and%20999%20$base%20score%20daily%20airdrop,%20follow%20@casteragents%20and%20join%20/caster%20to%20be%20eligible.%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20100%20$cat%20and%202,000%20$base%20score%20daily%20airdrop,%20follow%20@casteragents,%20verify%20and%20join%20/caster%20to%20be%20eligible.%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://farcaster.xyz/miniapps/Fr3aGrjxNyC7/x402-caster-id" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               @casteragents
               <span className="ml-auto">→</span>
             </a>
-            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20150%20$cat%20and%201,500%20$base%20score%20daily%20airdrop,%20follow%20@tapcaster%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20200%20$cat%20and%202,500%20$base%20score%20daily%20airdrop,%20follow%20@tapcaster,%20verify%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://farcaster.xyz/miniapps/Fr3aGrjxNyC7/x402-caster-id" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               @tapcaster
               <span className="ml-auto">→</span>
             </a>
-            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20300%20$cat%20and%203,000%20$base%20score%20daily%20airdrop,%20follow%20@casterapp%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20300%20$cat%20and%205,000%20$base%20score%20daily%20airdrop,%20follow%20@casterapp,%20verify%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://farcaster.xyz/miniapps/Fr3aGrjxNyC7/x402-caster-id" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               @casterapp
               <span className="ml-auto">→</span>
             </a>
-            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20600%20$cat%20and%206,000%20$base%20score%20daily%20airdrop,%20follow%20@casterai%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://catcaster.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
+            <a href="https://farcaster.xyz/~/compose?text=Meooooow!%20Claim%20500%20$cat%20and%209,000%20$base%20score%20daily%20airdrop,%20follow%20@casterai,%20verify%20and%20join%20/caster%20to%20be%20eligible.%20(read%20bio%20for%20more%20instructions)%F0%9F%90%BE%F0%9F%90%88&embeds[]=https://farcaster.xyz/miniapps/Fr3aGrjxNyC7/x402-caster-id" target="_blank" rel="noopener noreferrer" className="flex items-center bg-background p-3 rounded border border-border text-accent hover:bg-accent hover:text-background transition">
               @casterai
               <span className="ml-auto">→</span>
             </a>
